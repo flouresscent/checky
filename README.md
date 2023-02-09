@@ -9,13 +9,13 @@ Firstly place the photo of the receipt with the qr-code in the tests folder and 
 ```
 
 Next, run the file main.py . In the field that appears, enter your phone number, and then enter the SMS confirmation code that will be sent to the specified number.
-```python
+```
   [PHONE] Enter the phone number in the format +7XXXXXXXXXX: +71234567890
   [CODE] Enter the code from the SMS: 1234
 ```
 
 After the program is completed, a json file with information about the receipt and purchases will be available in the receipts folder in the format:
-```python
+```
   /receipts/YYYY-MM-DDTHH-MM-SS.json
 ```
 
